@@ -3,7 +3,7 @@ import os
 import pandas as pd
  
 # Set the exact path to the CSV file
-poll_path = r"/Users/mjs/Desktop/python-challenge/PyPoll/Resources/election_data.csv"
+poll_path = "Resources/election_data.csv"
  
 # Verify the file exists
 if not os.path.exists(poll_path):
